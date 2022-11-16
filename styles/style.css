@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: "Tahoma", sans-serif;
+}
+
+.container {
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+.left-container {
+    float: left;
+    width: 50%;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.right-container {
+    float: left;
+    width: 50%;
+    /* border: 1px solid blue; */
+    padding: 10px;
+}
+
+.bottom-container {
+    /* border: 1px solid yellowgreen; */
+    padding: 10px;
+}
+
+.clearfloat {
+    clear: both;
+}
+
